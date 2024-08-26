@@ -1,0 +1,40 @@
+
+.Register{
+    border: 2px ;
+    width: 28%;
+    height: 500px;
+    align-items: center;
+    margin-left: 57%;
+    margin-top: -33%;
+    position: absolute;
+
+}
+.accno{
+    padding: 4%;
+    width: 70%;
+    border: none;
+    background-color:  rgb(237, 249, 250);
+    border-radius: 12px;
+}
+.user{
+    padding: 4%;
+    width: 70%;
+    border: none;
+    background-color:  rgb(237, 249, 250);
+    border-radius: 12px;
+}
+.pass{
+    padding: 4%;
+    width: 70%;
+    border: none;
+    background-color:  rgb(237, 249, 250);
+    border-radius: 12px;
+}
+.btn{
+    padding: 4%;
+    width: 78%;
+    border: none;
+    background-color: rgb(34, 141, 145);
+    border-radius: 16px;
+    
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body style="background-color: rgb(238, 209, 172);">
+    <p><a href="register.html"></a></p>
+    <img style="width: 50%; margin-left: 1%;" src="./people-growth-data-graph-analysis-concept-flat-illustration-vector-removebg-preview.png" alt="">
+    <div class="login">
+    <center>
+        
+        <h2>Log in</h2>
+       
+        <label for=""></label>
+        <input type="text" id="Acc" class="acno" placeholder="Account Number"><br><br>
+        
+        <input type="password" id="Pswd" class="pass" placeholder="password"><br><br>
+        
+        <button style="color: white;" type="button" class="btn btn-primary" onclick="login2()">Login</button><br><br>
+        <a href="">forgot password?</a> or <a href="">sign up</a>
+    </center>
+</div>
+</body>
+<script>
+    function login2(){
+        x={
+        accountno:Acc.value,
+        password:Pswd.value,
+        }
+       
+
+        if(x.accountno=="" || x.password==""){
+            alert('please fill missing fields')
+        
+        }else  {
+            alert('login successfully')
+            window.location='./landing.html'
+            
+        }
+    }
+    
+</script>
+</html>

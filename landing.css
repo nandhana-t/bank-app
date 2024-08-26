@@ -1,0 +1,100 @@
+.body{
+    background:linear-gradient(to right,rgb(119, 236, 148),rgb(177, 177, 214)) ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    height: 900px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: rgb(5, 5, 119);
+    
+    
+}
+.deposit{
+    border: 1px solid white;
+    padding: 5%;
+    
+    background-color:rgb(247, 242, 242);
+    opacity: 100%;
+    width: 25%;
+    margin-left: 25%;
+    margin-top: 3%;
+    color:rgb(20, 20, 143);
+    font-family: "Poppins", sans-serif;
+}
+
+.withdraw{
+    border: 1px solid white ;
+    padding: 5%;
+    
+    background:rgb(247, 242, 242);
+    width: 25%;
+    margin-left: 55%;
+    margin-top: -25.2%;
+    color: rgb(36, 36, 141);
+    font-family: "Poppins", sans-serif;
+    
+}
+#Amount2{
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(206, 224, 235);
+    padding: 4%;
+    width: 120%;
+    margin-left: -10%;
+    font-size: 14px;
+}
+#Amount2:hover{
+    transform: scale(1.1);
+    background-color: white;
+    outline: none;
+}
+#Amount1{
+    border-radius: 12px;
+    border: none;
+    padding: 4%;
+    width: 120%;
+    margin-left: -10%;
+    background-color:  rgb(206, 224, 235) ;
+    font-size: 14px;
+}
+#Amount1:hover{
+    transform: scale(1.1);
+    background-color: white;
+    outline: none;
+}
+#Acno1{
+    border-radius: 12px;
+    border: none;
+    background-color:  rgb(206, 224, 235);
+    padding: 4%;
+    width: 120%;
+    margin-left: -10%;
+    font-size: 14px;
+}
+#Acno2{
+    border-radius: 12px;
+    border: none;
+    background-color:rgb(206, 224, 235);
+    padding: 4%;
+    width: 120%;
+    margin-left: -10%;
+    font-size: 14px;
+   
+}
+
+
+#Acno1:hover{
+   transform: scale(1.1);
+   background-color: white;
+   outline: none;
+}
+#Acno2:hover{
+   transform: scale(1.1);
+    background-color: white;
+    outline: none;
+}

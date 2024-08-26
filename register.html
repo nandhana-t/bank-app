@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body style="background-color:rgb(220, 208, 231);">
+    <p><a href="login.html"></a></p>
+    <img style="width: 55%; margin-left: 1%;" src="https://cdni.iconscout.com/illustration/premium/thumb/manage-bank-account-using-smartphone-1946843-1648370.png" alt="">
+    <div class="Register">
+    <center>
+        
+        <h2>Register</h2>
+       
+        <label for=""></label>
+        <input type="text" id="uname" class="user" placeholder="User name"><br><br>
+        <input type="text" id="acno" class="accno" placeholder="Account Number"><br><br>
+        
+        <input type="password" id="Pswd" class="pass" placeholder="password"><br><br>
+        
+        <button style="color: white;" type="button" class="btn btn-primary" onclick="register2()">Register</button><br><br>
+        
+    </center>
+</div>
+</body>
+<script>
+
+    function register2(){
+        a = {
+            user : uname.value,
+            account : acno.value,
+            password : Pswd.value
+        }
+        if(a.user =="" || a.account ==""|| a.password ==""){
+            alert('please fill missing fields')
+        }else{
+             alert('Registration completed')
+             window.location='./login.html'
+        }
+       
+    }
+   
+</script>
+</html>
